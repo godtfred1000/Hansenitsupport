@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kontakt Hansen IT Support for tilbud på ny hjemmeside."><title>Kontakt | Hansen IT Support</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/style.css"></head>
+<body class="page-contact">
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Hansen IT Support</span></a><button class="menu-btn" aria-expanded="false" aria-controls="main-nav">Meny</button><nav id="main-nav" class="main-nav"><a href="index.html">Forside</a><a href="tjenester.html">Tjenester</a><a href="eksempler.html">Eksempler</a><a href="priser.html">Priser</a><a href="om.html">Om</a><a class="nav-cta active" href="kontakt.html">Kontakt</a></nav></div></header>
+<main>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Kontakt</span><h1>Fortell litt om hjemmesiden du trenger</h1><p class="lead">Send en uforpliktende forespørsel. Jo mer informasjon du legger inn, desto enklere er det å gi et godt prisforslag.</p></div></section>
+<section class="section"><div class="container contact-grid">
+<div class="contact-panel">
+<span class="eyebrow">Kontaktinformasjon</span><h2>Ta kontakt direkte</h2><p>Telefonnummer og e-postadresse legges inn i <code>js/script.js</code> før nettsiden publiseres.</p>
+<div class="contact-method"><strong>E-post</strong><a class="config-email-link" href="#">E-post legges inn</a></div>
+<div class="contact-method"><strong>Telefon</strong><a class="config-phone-link" href="#">Telefon legges inn</a></div>
+<div class="contact-tip"><strong>Tips</strong><p>Ta gjerne med bedriftens navn, ønsket antall sider, hvilke tjenester som skal vises og om du allerede har logo, bilder og tekst.</p></div>
+</div>
+<form class="contact-form" id="contact-form">
+<div class="field-row"><label>Navn<input required name="navn" autocomplete="name"></label><label>Bedrift<input name="bedrift" autocomplete="organization"></label></div>
+<div class="field-row"><label>E-post<input required type="email" name="epost" autocomplete="email"></label><label>Telefon<input name="telefon" autocomplete="tel"></label></div>
+<label>Hva trenger du?<select name="tjeneste"><option>Ny hjemmeside</option><option>Redesign av gammel hjemmeside</option><option>Større portal</option><option>Oppdatering av eksisterende nettside</option></select></label>
+<label>Beskriv prosjektet<textarea required name="melding" rows="7" placeholder="For eksempel antall sider, ønsket stil, funksjoner og når siden bør være klar."></textarea></label>
+<button class="btn btn-primary" type="submit">Lag e-postforespørsel</button>
+<p class="form-note">Knappen åpner e-postprogrammet ditt med ferdig utfylt forespørsel. E-postadressen må først legges inn i script.js.</p>
+<div id="form-status" class="form-status" role="status"></div>
+</form>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Hansen IT Support</span></a><p>Moderne hjemmesider for små bedrifter.</p></div><div><strong>Sider</strong><a href="tjenester.html">Tjenester</a><a href="eksempler.html">Eksempler</a><a href="priser.html">Priser</a></div><div><strong>Kontakt</strong><a href="kontakt.html">Kontaktskjema</a><span class="config-email">E-post legges inn</span><span class="config-phone">Telefon legges inn</span></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Hansen IT Support</span><span>Nettsiden er laget av Hansen IT Support</span></div></footer>
+<script src="js/script.js"></script></body></html>
