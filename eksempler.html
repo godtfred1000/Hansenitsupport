@@ -1,17 +1,118 @@
 <!doctype html>
 <html lang="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Eksempler på typer hjemmesider Hansen IT Support kan lage."><title>Eksempler | Hansen IT Support</title>
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/style.css"></head>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/style.css">
+<style>
+.project-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.live-project {
+  min-height: 220px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.live-project strong {
+  display: block;
+  margin-top: 12px;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  line-height: 1.05;
+  color: #fff;
+}
+.live-project small {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: rgba(255,255,255,.9);
+}
+.live-badge {
+  display: inline-flex;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.92);
+  color: #172033;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.project-button {
+  margin-top: 14px;
+}
+.project-card {
+  overflow: hidden;
+}
+</style>
+
+</head>
 <body class="page-examples">
 <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Hansen IT Support</span></a><button class="menu-btn" aria-expanded="false" aria-controls="main-nav">Meny</button><nav id="main-nav" class="main-nav"><a href="index.html">Forside</a><a href="tjenester.html">Tjenester</a><a class="active" href="eksempler.html">Eksempler</a><a href="priser.html">Priser</a><a href="om.html">Om</a><a class="nav-cta" href="kontakt.html">Kontakt</a></nav></div></header>
 <main>
-<section class="page-hero"><div class="container narrow"><span class="eyebrow">Eksempler</span><h1>Nettsider tilpasset ulike behov</h1><p class="lead">Her er eksempler på uttrykk og oppsett som kan tilpasses din bedrift. Prosjektene under er demonstrasjoner.</p></div></section>
-<section class="section"><div class="container project-grid">
-<article class="project-card"><div class="project-preview theme-builder"><div class="mini-site"><span></span><b></b><i></i><i></i><i></i></div></div><div class="project-content"><span class="tag">Håndverker</span><h2>Firmaside for håndverksbedrift</h2><p>Tydelig presentasjon av tjenester, referanser, områder og kontaktmuligheter.</p></div></article>
-<article class="project-card"><div class="project-preview theme-property"><div class="mini-site"><span></span><b></b><i></i><i></i><i></i></div></div><div class="project-content"><span class="tag">Eiendom</span><h2>Presentasjon av bolig eller prosjekt</h2><p>Store bilder, fakta, plantegninger, galleri og kontaktinformasjon samlet på ett sted.</p></div></article>
-<article class="project-card"><div class="project-preview theme-association"><div class="mini-site"><span></span><b></b><i></i><i></i><i></i></div></div><div class="project-content"><span class="tag">Forening</span><h2>Portal for forening eller laug</h2><p>Medlemsbedrifter, styret, dokumenter, nyheter og informasjon fordelt på undersider.</p></div></article>
-<article class="project-card"><div class="project-preview theme-consultant"><div class="mini-site"><span></span><b></b><i></i><i></i><i></i></div></div><div class="project-content"><span class="tag">Konsulent</span><h2>Enkel og profesjonell tjenesteside</h2><p>Et rolig og troverdig uttrykk med fokus på kompetanse, tjenester og bestilling.</p></div></article>
-</div></section>
+<section class="page-hero"><div class="container narrow"><span class="eyebrow">Eksempler</span><h1>Nettsider tilpasset ulike behov</h1><p class="lead">Her er noen av nettsidene Hansen IT Support har laget og publisert for bedrifter og eiendom.</p></div></section>
+<section class="section">
+<div class="container">
+  <div class="project-grid">
+
+    <article class="project-card">
+      <a class="project-link" href="https://www.mmrd.no/" target="_blank" rel="noopener noreferrer" aria-label="Åpne mmrd.no i ny fane">
+        <div class="project-preview theme-builder">
+          <div class="live-project">
+            <span class="live-badge">Publisert nettside</span>
+            <strong>mmrd.no</strong>
+            <small>Malermester Runar Danielsen AS</small>
+          </div>
+        </div>
+      </a>
+      <div class="project-content">
+        <span class="tag">Håndverker</span>
+        <h2>Malermester Runar Danielsen AS</h2>
+        <p>Profesjonell firmaside som presenterer malertjenester, utførte arbeider og kontaktinformasjon.</p>
+        <a class="btn btn-primary project-button" href="https://www.mmrd.no/" target="_blank" rel="noopener noreferrer">Se nettsiden</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <a class="project-link" href="https://boligogdesign.no/" target="_blank" rel="noopener noreferrer" aria-label="Åpne boligogdesign.no i ny fane">
+        <div class="project-preview theme-consultant">
+          <div class="live-project">
+            <span class="live-badge">Publisert nettside</span>
+            <strong>boligogdesign.no</strong>
+            <small>Tilstandsrapporter og taksering</small>
+          </div>
+        </div>
+      </a>
+      <div class="project-content">
+        <span class="tag">Takst og bygg</span>
+        <h2>Bolig Design AS</h2>
+        <p>Troverdig tjenesteside for tilstandsrapporter, skade- og verditakster og byggfaglig rådgivning.</p>
+        <a class="btn btn-primary project-button" href="https://boligogdesign.no/" target="_blank" rel="noopener noreferrer">Se nettsiden</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <a class="project-link" href="https://klostervegen.no/" target="_blank" rel="noopener noreferrer" aria-label="Åpne klostervegen.no i ny fane">
+        <div class="project-preview theme-property">
+          <div class="live-project">
+            <span class="live-badge">Publisert nettside</span>
+            <strong>klostervegen.no</strong>
+            <small>Boligpresentasjon</small>
+          </div>
+        </div>
+      </a>
+      <div class="project-content">
+        <span class="tag">Eiendom</span>
+        <h2>Klostervegen 8A og 8B</h2>
+        <p>Omfattende boligpresentasjon med bilder, fakta, tekniske kvaliteter, kart og kontaktskjema.</p>
+        <a class="btn btn-primary project-button" href="https://klostervegen.no/" target="_blank" rel="noopener noreferrer">Se nettsiden</a>
+      </div>
+    </article>
+
+  </div>
+</div>
+</section>
 <section class="section section-soft"><div class="container center narrow"><span class="eyebrow">Din bedrift er unik</span><h2>Alle nettsider tilpasses</h2><p class="lead-small">Farger, innhold, oppsett og funksjoner bygges rundt det du faktisk trenger. Du slipper å betale for unødvendige løsninger.</p><a class="btn btn-primary" href="kontakt.html">Fortell om prosjektet</a></div></section>
 </main>
 <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Hansen IT Support</span></a><p>Moderne hjemmesider for små bedrifter.</p></div><div><strong>Sider</strong><a href="tjenester.html">Tjenester</a><a href="eksempler.html">Eksempler</a><a href="priser.html">Priser</a></div><div><strong>Kontakt</strong><a href="kontakt.html">Kontaktskjema</a><span class="config-email">E-post legges inn</span><span class="config-phone">Telefon legges inn</span></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Hansen IT Support</span><span>Nettsiden er laget av Hansen IT Support</span></div></footer>
